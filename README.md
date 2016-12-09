@@ -10,13 +10,9 @@ It displays monthly and yearly breakup list.
 
 INPUT:-
 
-Loan amount
-Interest rate
-Loan tenure
+Loan amount, Interest rate, Loan tenure
 
 OUTPUT:-
 
-Loan EMI
-Total interest
-Total Payment
+Loan EMI, Total interest, Total Payment
 Also displays monthly EMI payments and the remaining balance.
