@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"> </script>
+  </head>
+
+  <body>
+
+	<h1>EMI CALCULATOR</h1>
+     <table cellpadding=3>
+            <tr>
+                <td>Loan Amount :</td>
+                    <td><input id="principal" type="text"></td>
+            </tr>
+            <tr>
+                <td>Interest Rate :</td>
+                    <td><input id="rate" type="text"></td>
+            </tr>
+            <tr>
+                <td>Loan Tenure :</td>
+                    <td><input id="tenure" type="text"></td>
+            </tr>
+      </table>
+	  <br>
+      <div class="btn">
+      	<button onclick="EMI()">CALCULATE</button>
+      </div>
+      <br>
+      <table cellpadding=3>
+            <tr>
+                <td>Loan EMI :</td>
+                  <td><input id="emi" type="text" readonly></td>
+            </tr>
+            <tr>
+                <td>Total Interest :</td>
+                  <td><input id="interest" type="text" readonly></td>
+            </tr>
+            <tr>
+                <td>Total Payment :</td>
+                  <td> <input id="pay" type="text" readonly></td>
+            </tr>
+      </table>
+      <br>
+      <div class="btn">
+		Show EMI payments starting from 
+			<input id="monthYear" type="text" value="2016"></input>
+	  </div>	
+	  <br>	
+	   <table id="myTable" border="3"></table>
+     
+  </body>
+
+</html>
